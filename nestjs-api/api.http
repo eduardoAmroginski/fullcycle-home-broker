@@ -16,6 +16,8 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/assets
 
+6f55382d-3e96-4230-a5ca-f92b0ed9d5ce
+
 ###
 GET http://localhost:3000/assets/A1
 
@@ -50,7 +52,7 @@ Content-Type: application/json
     "walletId": "{{ walletId }}",
     "assetId": "{{ assetId }}",
     "shares": 10,
-    "price": 100,
+    "price": 150,
     "type": "BUY"
 }
 
