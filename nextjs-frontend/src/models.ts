@@ -38,3 +38,17 @@ export type Order = {
   type: OrderType;
   status: OrderStatus;
 };
+
+export type AssetStore = {
+  assets: Asset[];
+  // addAsset: (asset: Asset) => void; TODO
+  changeAsset: (asset: Asset) => void;
+  // removeAsset: (asset: Asset) => void; TODO
+};
+
+export type AssetDaily = {
+  _id: string;
+  asset: Asset;
+  date: string;
+  price: number;
+};
