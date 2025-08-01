@@ -26,8 +26,8 @@ POST http://localhost:3000/assets/A1/dailies
 Content-Type: application/json
 
 {
-  "date": "2024-12-17",
-  "price": 200
+  "date": "2025-02-13",
+  "price": 1500
 }
 
 ###
